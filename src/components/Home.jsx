@@ -106,9 +106,9 @@ const Home = (props) => {
 		);
 	}
 
-	if (error) {
-		return <div>Unexpected Error: {error}</div>;
-	}
+	// if (error) {
+	// 	return <div>Unexpected Error: {error}</div>;
+	// }
 
 	if (data?.listTrails) {
 		let newCards = data.listTrails.map((trail) => {
