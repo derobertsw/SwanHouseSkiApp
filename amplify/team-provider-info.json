@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hikingapp-dev-215354-authRole",
+      "UnauthRoleArn": "arn:aws:iam::590272945317:role/amplify-hikingapp-dev-215354-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::590272945317:role/amplify-hikingapp-dev-215354-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hikingapp-dev-215354-deployment",
+      "UnauthRoleName": "amplify-hikingapp-dev-215354-unauthRole",
+      "StackName": "amplify-hikingapp-dev-215354",
+      "StackId": "arn:aws:cloudformation:us-east-1:590272945317:stack/amplify-hikingapp-dev-215354/9eaac220-3449-11eb-838f-0a9888c17b59",
+      "AmplifyAppId": "d2kuny68xeo7bn"
+    }
+  }
+}

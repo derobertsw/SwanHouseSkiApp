@@ -1,0 +1,68 @@
+{
+	"name": "react-amplified",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@apollo/client": "^3.3.6",
+		"@apollo/react-hooks": "^4.0.0",
+		"@aws-amplify/ui-react": "^0.2.30",
+		"@fortawesome/fontawesome-svg-core": "^1.2.32",
+		"@fortawesome/free-solid-svg-icons": "^5.15.1",
+		"@fortawesome/react-fontawesome": "^0.1.13",
+		"@material-ui/core": "^4.11.2",
+		"@material-ui/icons": "^4.11.2",
+		"@material-ui/lab": "^4.0.0-alpha.57",
+		"@testing-library/jest-dom": "^5.11.6",
+		"@testing-library/react": "^11.2.2",
+		"@testing-library/user-event": "^12.2.2",
+		"apollo-boost": "^0.4.9",
+		"aws-amplify": "^3.3.10",
+		"axios": "^0.21.1",
+		"circular-json": "^0.5.9",
+		"cors": "^2.8.5",
+		"emailjs-com": "^2.6.4",
+		"firebase": "^7.14.0",
+		"flatted": "^3.1.0",
+		"graphql": "^15.4.0",
+		"leaflet": "^1.7.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-http-status-code": "^1.0.1",
+		"react-iframe": "^1.8.0",
+		"react-leaflet": "^2.7.0",
+		"react-loader-spinner": "^3.1.14",
+		"react-multi-email": "^0.5.3",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "4.0.1",
+		"react-uuid": "^1.0.2",
+		"web-vitals": "^0.2.4"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "cypress open",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"cypress": "^6.0.0",
+		"cypress-react-selector": "^2.2.1"
+	}
+}
