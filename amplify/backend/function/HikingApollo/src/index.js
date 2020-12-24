@@ -397,7 +397,7 @@ const getTrailsById = async (trailIdArray) => {
 	try {
 		const { data } = await axios.get(API_URL, {
 			params: {
-				key: process.env.HIKING_APP_API_KEY,
+				key: process.env.POWDER_PROJECT_API_KEY,
 				ids: trailIdArray.join()
 			}
 		});
@@ -457,7 +457,7 @@ const getTrails = async (lat, long) => {
 	try {
 		const { data } = await axios.get(API_URL, {
 			params: {
-				key: process.env.HIKING_APP_API_KEY,
+				key: process.env.POWDER_PROJECT_API_KEY,
 				lat: lat,
 				lon: long
 			}
